@@ -33,7 +33,7 @@ Et on l'active
 source create-a-notebook_env/bin/activate
 ```
 
-Pour savoir si on est dans un virtualenv active, deux solutions : 
+Pour savoir si on est dans un virtualenv actif, deux solutions : 
 
 - Soit le prompt l'affiche
 - Soit *on voit le path du repertoire du virtualenv* en affichant le $PATH
@@ -126,11 +126,11 @@ Ce tutoriel viens de ce module d’entraînement pour les débutants en Python :
 
 Voici quelques captures après l'avoir terminé.
 
-![Engine started](../create-a-notebook/Engine-Started.png "Création du bouton de démarrage de la fusée")
+![Engine started](Engine-Started.png "Création du bouton de démarrage de la fusée")
 
 &nbsp;
 
-![Engine started](../create-a-notebook/restart-kernel.png "Comment redémarrer le kernel")
+![Engine started](restart-kernel.png "Comment redémarrer le kernel")
 
 ---
 
