@@ -1,5 +1,51 @@
 # Creation d'un notebook Jupyter sur Gnu-Linux (Achlinux)
 
+## Steps to see Jupyter books, needs Python & virtualenv
+
+Clone repo :
+
+```bash
+git clone https://github.com/rnek0/myJupyterVenv
+```
+
+Enter on folder :
+
+```bash
+cd myJupyterVenv
+```
+
+Activate virtualenv :
+
+```bash
+virtualenv myJupyterVenv_env
+```
+
+Source it
+
+```bash
+source myJupyterVenv_env/bin/activate
+```
+
+Install requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch Jupyter books
+
+```bash
+jupyter notebook
+```
+
+Go to the web page and enjoy reading.
+
+---
+
+&nbsp;
+
+French tuto :
+
 Jupyter Notebook (anciennement IPython Notebooks) est un environnement de programmation interactif basé sur le Web permettant de créer des documents Jupyter Notebook. Le terme "notebook" peut faire référence à de nombreuses entités différentes, adaptées au contexte, telles que l'application web Jupyter, le serveur web Jupyter Python ou le **format de document Jupyter**. 
 
 Jupyter : <https://fr.wikipedia.org/wiki/Jupyter> 
